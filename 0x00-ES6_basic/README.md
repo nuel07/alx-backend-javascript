@@ -1,0 +1,1 @@
+An introduction to ES6. This project folder is filled with tasks to solidify my understanding of the revised ES6 Javascript.
