@@ -1,21 +1,23 @@
 /**
  * function that uses const for variable declaration
- * @return {string} The variable value
+ * @return{string} task
  */
 export function taskFirst() {
   const task = 'I prefer const when I can.';
   return task;
 }
+
 /**
- * functions with no varible
- * @return {string}
+ * function that has no variable
+ * @return{string} is okay
  */
 export function getLast() {
   return ' is okay';
 }
+
 /**
  * function that uses let for variable declaration
- * @return {string} The variable value
+ * @return{string} combination
  */
 export function taskNext() {
   let combination = 'But sometimes let';
