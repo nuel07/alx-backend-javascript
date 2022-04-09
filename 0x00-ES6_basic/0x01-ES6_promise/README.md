@@ -1,0 +1,1 @@
+In this project directory, the main focus is Javascript Promises and all the methods related to them.
