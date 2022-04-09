@@ -5,10 +5,12 @@
  * @return{object}
  */
 export default function createEmployeesObject(departmentName, employees) {
+/* eslint-disable no-unused-vars */
   const employeesObj = {
     departmentName,
     employees,
   };
+    /* eslint-disable no-unused-vars */
 
   return { [`${departmentName}`]: employees };
 }
