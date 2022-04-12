@@ -1,0 +1,1 @@
+The main focus in this project directory is to get a better understanding of ES6 classes and Symbols.
