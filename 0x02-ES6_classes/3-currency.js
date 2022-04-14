@@ -17,6 +17,7 @@ export default class Currency {
 
   /** setter method for the code */
   set code(theCode) {
+    if (typeof theCode !== 'string') throw new TypeError('The code must be a string');
     this._code = theCode;
   }
 
@@ -27,6 +28,7 @@ export default class Currency {
 
   /** setter method for the name */
   set(theName) {
+    if (typeof theName !== 'string') throw new TypeError('The name must be a string');
     this._name = theName;
   }
 
