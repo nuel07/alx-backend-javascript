@@ -3,7 +3,7 @@ export default class Currency {
   /**
      * define currency
      * @param{string} code
-     * @param{sting} name
+     * @param{string} name
      */
   constructor(code, name) {
     this._code = code;
