@@ -1,5 +1,3 @@
-
-
 module.exports = {
     
     env: {
@@ -69,3 +67,5 @@ module.exports = {
 	    excludedFiles: 'babel.config.js',
 	    
 	}
+    ]
+};
