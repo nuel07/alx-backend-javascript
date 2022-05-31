@@ -9,9 +9,9 @@ function countStudents(path) {
   }
   content = content.split('\n');
   let students = content.filter((colmn) => colmn);
+  students = students.map((colmn) => colmn.split(','));  
   const NUMBER_OF_STUDENTS = students.length ? students.length - 1 : 0;
   console.log(`Number of students: ${NUMBER_OF_STUDENTS}`);
-  students = students.map((colmn) => colmn.split(','));
   const fields = {};
   for (const s in students) {
     if (s !== 0) {
