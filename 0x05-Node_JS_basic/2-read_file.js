@@ -3,7 +3,7 @@ const fs = require('fs');
 function countStudents(path) {
   let content;
   try {
-    content = fs.readFileSync(path).toString();
+      content = fs.readFileSync(path, "utf8").toString();
   } catch (err) {
     throw new Error('Cannot load the database');
   }
@@ -16,8 +16,8 @@ function countStudents(path) {
   for (const s in students) {
     if (s !== 0) {
       if (!fields[students[s][3]]) {
-	fields[students[s][3]] = [];
-	fields[students[s][3]].push(students[s][0]);
+        fields[students[s][3]] = [];
+        fields[students[s][3]].push(students[s][0]);
       }
     }
   }
