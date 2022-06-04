@@ -22,7 +22,7 @@ export default class Currency {
   }
 
   /** getter method for the name */
-    get name() {
+  get name() {
     return this._name;
   }
 
