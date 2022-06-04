@@ -22,12 +22,12 @@ export default class Currency {
   }
 
   /** getter method for the name */
-  get() {
+    get name() {
     return this._name;
   }
 
   /** setter method for the name */
-  set(theName) {
+  set name(theName) {
     if (typeof theName !== 'string') throw new TypeError('The name must be a string');
     this._name = theName;
   }
